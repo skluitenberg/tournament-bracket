@@ -1,0 +1,45 @@
+div#header{
+    border: 1px solid red;
+}
+
+div#bracket{
+    border: 1px solid green;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.column{
+    height: 400px;
+    width: auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.leftteam h1{
+    border-bottom: 1px solid orange;
+}
+
+.semifinalsteam{
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.semifinalsteam:nth-of-type(1){
+    border-bottom: 1px solid orange;
+    border-left: 1px solid orange;
+}
+
+.column:nth-of-type(4){
+    font-size: 20px;
+    width: auto;
+}
+
+div#footer{
+    border: 1px solid blue;
+    font-size: 6px;
+}
